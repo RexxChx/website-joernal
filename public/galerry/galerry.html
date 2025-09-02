@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Beranda | Portfolio</title>
+  <link rel="icon" href="/public/assets/xl-corp.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <button class="header-btn" id="toggleSidebar">
+        <img src="/assets/NavIcon.png" alt="Navigation Icon" class="sidebar-img" />
+      </button>
+      <div class="user-info">
+        <p class="intro">Hi, visitor!</p>
+        <h3 class="title">Galeri Saya</h3>
+      </div>
+      <button class="header-btn">
+        <img src="/assets/user.svg" alt="User Icon" class="user-img" />
+      </button>
+    </header>
+
+    <section id="gallery-section" class="gallery-wrapper">
+      <h2 class="title">Galeri Kegiatan</h2>
+      <p>di bawah ini adalah kegiatan kami selama magang/kerja di perusahaan Dayanet</p>
+      <div class="gallery-container" id="gallery-scroll">
+        <div class="gallery-item"><img src="/assets/Screenshot 2025-07-25 183623.png" alt="Kegiatan 1"></div>
+        <div class="gallery-item"><img src="/assets/Screenshot 2025-08-02 083616.png" alt="Kegiatan 2"></div>
+        <div class="gallery-item"><img src="/assets/Screenshot 2025-08-12 053634.png" alt="Kegiatan 3"></div>
+        <div class="gallery-item"><img src="/assets/Screenshot 2025-08-16 231046.png" alt="Kegiatan 4"></div>
+      </div>
+    </section>
+
+    <div class="credit-container" id="footer">
+      <div class="credit creator">
+        <h3 class="title">Dibuat Oleh</h3>
+        <a href="https://github.com/VelynAlexandria">
+          <p>VelynTeam</p>
+        </a>
+        <a href="https://wa.me/62895342022385">
+          <p>Kontak Kami</p>
+        </a>
+      </div>
+      <div class="credit sosial">
+        <h3 class="title">Ikuti Kami</h3>
+        <a href="https://youtube.com/@ErerexIDChx">
+          <p>Youtube</p>
+        </a>
+        <a href="https://www.instagram.com/haidar_nova">
+          <p>Instagram</p>
+        </a>
+      </div>
+    </div>
+    <p class="credit-p">© 2025 Ramadhan Handsome | New VelynTeam</p>
+  </div>
+
+
+<div class="sidebar">
+  <button class="close-btn" id="closeSidebar">
+    <i class="fas fa-times"></i>
+  </button>
+  <h2>Ramadhan Handsome</h2>
+  <nav>
+    <ul>
+      <li><a href="/index.html"><i class="fas fa-home"></i> Beranda</a></li>
+      <li><a href="/about/about.html"><i class="fas fa-users"></i> Tentang Kami</a></li>
+      <li><a href="/galerry/galerry.html"><i class="fas fa-image"></i>Galeri Kami</a></li>
+      <li><a href="/school/school.htm"><i class="fas fa-location"></i>Sekolah Kami</a></li>
+    </ul>
+  </nav>
+  <div class="theme-switch" id="themeToggle">
+    <div class="switch-circle">
+      <i class="fas fa-sun"></i>
+    </div>
+  </div>
+</div>
+
+  <script src="/js/script.js"></script>
+  <script src="/js/galerry.js"></script>
+  <script src="/js/sidebar.js"></script>
+</body>
+</html>
